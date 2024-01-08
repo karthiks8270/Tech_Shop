@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tech Shop</title>
+  <link rel="stylesheet" href="tech.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+  <title>Bootstrap Example</title>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+  <section class="backgroundAll">
+
+    <!-- HEADER -->
+
+    <nav>
+      <header>
+        <div class="header">
+          <div>
+            <h3 class="title">Tech-Shop</h3>
+          </div>
+          <div class="header_icons">
+            <i class="fa-solid fa-magnifying-glass search"></i>
+            <i class="fa-solid fa-cart-shopping shop"></i>
+            <i class="fa-regular fa-user techUser"></i>
+          </div>
+      </header>
+    </nav>
+
+    <!-- carousel part -->
+    <div id="hideAll">
+      <section class="carouselpart">
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="1500">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-6 jblText">
+                    <h5>JBL Live 660NC</h5>
+                    <h1>Keep The Noise'Out,</br>Or In You Choose</h1>
+                    <span>
+                      <p>&#8377; 9,999 <del>&#8377; 14,999</del></p>
+                    </span>
+                    <div>
+                      <button class="jblButton">Show Now</button>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <img src="./assests/img1.png" class="d-block" alt="img1" width="100%">
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <div class="carousel-item" data-bs-interval="1500">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-6 boattext">
+                    <h5>boAt Airdopes 131</h5>
+                    <h1>Featherweight For </br>Comfort All-Day</h1>
+                    <span>
+                      <p>&#8377; 1,099 <del>&#8377; 2,990</del></p>
+                    </span>
+                    <div>
+                      <button class="boatButton">Show now</button>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <img src="./assests/img2.png" class="d-block" alt="img2" width="100%">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="1500">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-6 sony">
+                    <h5>Sony WH-XB910N</h5>
+                    <h1>Give Your Favourite </br> Music A Boost</h1>
+                    <span>
+                      <p>&#8377; 13,489 <del>&#8377; 19,990</del></p>
+                    </span>
+                    <div>
+                      <button class="sonyButton">Show Now</button>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <img src="./assests/img3.png" class="d-block" alt="img3" width="100%">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Featured Product -->
+
+      <section class="Featured_Product">
+        <section>
+          <h4 class="featured_Products">Featured Products</h4>
+        </section>
+        <section class="image_Featured_Section">
+          <div>
+            <p class="featured_Text">boAt Rockerz 518</p>
+            <img src="./assests/boat518-1.png" alt="img1" class="featured_Images" id="boat518">
+            <span>
+              <p>&#8377; 1,299 <del>&#8377; 3,990</del></p>
+            </span>
+            <h1 class="hidden">HEllo</h1>
+          </div>
+          <div>
+            <p class="featured_Text">JBL Tune 760NC</p>
+            <img src="./assests/jbl760nc-1.png" alt="img2" class="featured_Images">
+            <span>
+              <p>&#8377; 5,999 <del>&#8377; 7,999</del></p>
+            </span>
+          </div>
+          <div>
+            <p class="featured_Text">boAt Rockerz 255</p>
+            <img src="./assests/boat255r-1.png" alt="img3" class="featured_Images">
+            <span>
+              <p>&#8377; 899 <del>&#8377; 2,990</del></p>
+            </span>
+          </div>
+          <div>
+            <p class="featured_Text">JBL Endurance Run Sports</p>
+            <img src="./assests/jbl-endu-1.png" alt="img4" class="featured_Images">
+            <span>
+              <p>&#8377; 999 <del>&#8377; 1,599</del></p>
+            </span>
+          </div>
+          <div>
+            <p class="featured_Text">boAt Airdopes 203</p>
+            <img src="./assests/boat203-1.png" alt="img4" class="featured_Images">
+            <span>
+              <p>&#8377; 1,074 <del>&#8377; 3,999</del></p>
+            </span>
+          </div>
+        </section>
+      </section>
+
+      <!-- TOP PRODUCTS -->
+
+      <section class="top_products">
+        <h6 class="top_products_head">TOP PRODUCTS</h6>
+
+        <section class="top_products_list">
+          <div>
+            <p><a href="#">All</a></p>
+          </div>
+
+          <div>
+            <p><a href="#">Headphones</a></p>
+          </div>
+
+          <div>
+            <p><a href="#">Earbuds</a></p>
+          </div>
+
+          <div>
+            <p><a href="#">Earphones</a></p>
+          </div>
+
+          <div>
+            <p><a href="#">Neckbands</a></p>
+          </div>
+        </section>
+
+        <section>
+          <div class="container cardConatiner ">
+
+            <!-- <div class="card cardProduct ">
+              <img src="./assests/jbl660nc-1.png" class="imgProduct" alt="..." width="40%">
+              <div class="card-body cardBodyProduct ">
+                <h5 class="card-title">JBL Live 660NC</h5>
+                <p class="card-text">Wireless Over-Ear NC Headphones</p>
+                <span>
+                  <p>&#8377; 9,999 <del>&#8377; 14,999</del></p>
+                </span>
+                <button class="bt-card">Add To Cart</button>
+              </div>
+            </div> -->
+            <div class="card cardProduct" id="productContainer">
+            </div>
+
+          </div>
+        </section>
+      </section>
+
+      <!-- Advantages -->
+
+      <section class="advantages">
+        <section>
+          <h5 class="advantages-heading">Our Advantages</h5>
+        </section>
+
+        <section class="services">
+          <div class="service-text">
+            <div>
+              <i class="fa-solid fa-truck service-icon"></i>
+            </div>
+            <div>
+              <h6>Express Delivery</h6>
+              <p class="advantage-text">Ships in 24 Hours</p>
+            </div>
+          </div>
+          <div class="service-text">
+            <div>
+              <i class="fa-solid fa-shield-halved service-icon"></i>
+            </div>
+            <div>
+              <h6>Brand Warranty</h6>
+              <p class="advantage-text">100% Original Products</p>
+            </div>
+          </div>
+          <div class="service-text">
+            <div>
+              <i class="fa-solid fa-tag service-icon"></i>
+            </div>
+            <div>
+              <h6>Exciting Deals</h6>
+              <p class="advantage-text">On All Prepaid Orders</p>
+            </div>
+          </div>
+          <div class="service-text">
+            <div>
+              <i class="fa-solid fa-credit-card service-icon"></i>
+            </div>
+            <div>
+              <h6>Secure Payments</h6>
+              <p class="advantage-text">SSI/Secure Certificates</p>
+            </div>
+          </div>
+        </section>
+      </section>
+  </section>
+  </div>
+
+
+  <!-- HEADER DETAILS -->
+
+  <div class="account">
+    <p class="account-items"><b>Hello!</b></p>
+    <p class="account-items">Access accounts and manage orders</p>
+    <button class="account-bt account-items ">Login/Signup</button>
+    <hr class="horizontal-line account-items">
+    <p class="account-items">Orders</p>
+    <p class="account-items">Wishlist</p>
+    <p class="account-items">Gift Cards</p>
+    <p class="account-items">Saved Cards</p>
+    <p class="account-items">Saved Address</p>
+  </div>
+  </div>
+  <div class="icons_name">
+    <p id="icons_name_1">search</p>
+    <p id="icons_name_2">shop</p>
+  </div>
+
+  <div class="cart_empty">
+    <i class="fa-solid fa-cart-shopping cart_empty_icon"></i>
+    <h5 class="cart_empty_text">Your cart is empty</h5>
+    <button class="cart_empty_bt">Start Shopping</button>
+  </div>
+
+  <div>
+    <form>
+      <input type="search" name="search" placeholder="Search For Product" id="search">
+    </form>
+  </div>
+
+
+  <!-- Login Details -->
+  <div class="login_detail">
+    <p class="cancel">X</p>
+    <h5>Login</h5>
+    <p>New to Karthik S ? <span id="create_account">Create an Account</span></p>
+    <form class="login">
+      <input type="email" name="Email" placeholder="Email">
+      <input type="password" name="password" placeholder="Password"><br>
+      <input type="button" name="button" value="Login">
+    </form>
+    <div class="login_text">
+      <hr>
+      <p>or login with</p>
+      <hr>
+    </div>
+    <div>
+      <button class="Facebook">Facebook</button>
+      <button class="Google">Google</button>
+      <button class="Twitter">Twitter</button>
+    </div>
+  </div>
+
+
+  <!-- Sign Up -->
+
+  <div class="signup_detail">
+    <p class="cancel_signup">X</p>
+    <h5>SignUp</h5>
+    <p>Already have an account ? <span id="login">LogIn</span></p>
+    <form class="signup">
+      <input type="text" name="UserName" placeholder="UserName">
+      <input type="email" name="Email" placeholder="Email">
+      <input type="password" name="password" placeholder="Password"><br>
+      <input type="password" name="password" placeholder="Confirm Password"><br>
+      <input type="button" name="button" value="Login">
+    </form>
+    <div class="signup_text">
+      <hr>
+      <p>or login with</p>
+      <hr>
+    </div>
+    <div>
+      <button class="Facebook">Facebook</button>
+      <button class="Google">Google</button>
+      <button class="Twitter">Twitter</button>
+    </div>
+  </div>
+
+  <!-- Featured details -->
+  <section class="boat518_images">
+    <div>
+      <div><img src="./assests/boat518-1.png" alt="boat518-1" class="boat518" id="boat518-1"></div>
+      <div> <img src="./assests/boat518-2.png" alt="boat518-2" class="boat518" id="boat518-2"></div>
+      <div><img src="./assests/boat518-3.png" alt="boat518-3" class="boat518" id="boat518-3"></div>
+      <div><img src="./assests/boat518-4.png" alt="boat518-4" class="boat518" id="boat518-4"></div>
+    </div>
+
+    <div class="boat518_Extended">
+
+    </div>
+
+    <div>
+      <h6><b>boAt Rockerz 518</b></h6>
+      <p>On-Ear Wireless Headphones</p>
+      <p>1321 Ratings</p>
+      <hr>
+      <div class="boat518_Extended_Details">
+        <div>
+          <h5>&#8377; 1,299 <del id="boat518-1_discount">&#8377; 3,990</del>
+          </h5>
+          <p>You save:&#8377;2,671 (67%)</p>
+          <p>(Inclusive all taxes)</p>
+        </div>
+        <div id="In-stock">&#x2713;In Stock</div>
+      </div>
+      <hr>
+      <p>Offers and Discounts</p>
+      <div class="Payment_Method">
+        <p class="Payment">No Cost EMI on Credit Card</p>
+        <p class="Payment">Pay Later and Avail Cashback</p>
+      </div>
+      <button class="Add_to_cart_bt">Add to Cart</button>
+    </div>
+
+  </section>
+
+  <section class="boat518_Specfication">
+    <div class="boat518_bt">
+      <button class="boat518_bts">Specification</button>
+      <button class="boat518_bts">Overview</button>
+      <button class="boat518_bts">Review</button>
+    </div>
+
+    <div>
+      <h5>The boat Rockerz 518 On-Ear Wireless Headphones provides with fabulous sound quality </h5><br>
+      <ul>
+        <li>Sound Tuned to Perfection</li>
+        <li>Comfortable to Wear</li>
+        <li>Long Hours PLayback Time</li>
+      </ul><br>
+      <p>Buy the <b>boAt Rockerz 518 On -Ear Wireless Headphones</b> which offers you with faboulus music experience by
+        providing you
+        with awesome sound quality that you can never move on from . Enjoy perfect flexlbility and mobility with amazing
+        musical
+        quality with these Headphones giving you a truly awesome audio experience .It blends with expectional sound
+        quality
+        and a range of smart features for an unrivalled listening experience.
+      </p>
+    </div>
+  </section>
+
+
+  <div>
+
+    <img src="./assests/jbl760nc-1.png" alt="" width="200px" height="200px">
+    <img src="./assests/jbl760nc-2.png" alt="" width="200px" height="200px">
+    <img src="./assests/jbl760nc-3.png" alt="" width="200px" height="200px">
+    <img src="./assests/jbl760nc-4.png" alt="" width="200px" height="200px">
+
+  </div>
+
+
+  <!-- FOOTER -->
+
+  <section class="footer">
+    <section class="footer-sec">
+      <div>
+        <h6><b>Tech-Shop</b></h6>
+        <p>Subscribe to our Email alters to receive <br>early discount offers, and new products info</p>
+        <form>
+          <div>
+            <input type="email" placeholder="Enter your Email id" class="email-box">
+          </div>
+          <div>
+            <input type="button" value="Subscribe" class="Subscribe-bt">
+          </div>
+        </form>
+      </div>
+      <div>
+        <p>Help</p>
+        <p class="footer-ele">FAQ's</p>
+        <p class="footer-ele">Track Order</p>
+        <p class="footer-ele">Cancel Order</p>
+        <p class="footer-ele">Return Order</p>
+      </div>
+      <div>
+        <p>Policies</p>
+        <p class="footer-ele">Return Policy</p>
+        <p class="footer-ele">Security</p>
+        <p class="footer-ele">Sitemap</p>
+        <p class="footer-ele">Privacy Policy</p>
+      </div>
+      <div>
+        <p>Compnay</p>
+        <p class="footer-ele">About Us</p>
+        <p class="footer-ele">Contact Us</p>
+        <p class="footer-ele">Service Centers</p>
+        <p class="footer-ele">Careers</p>
+      </div>
+    </section>
+    <section>
+      <hr class="footer-line">
+    </section>
+    <section class="dev">
+      <div>
+        <span class="dev-details">2023|</span>
+        <span class="dev-details">All Rights Reserved.Build by|</span>
+        <span>Karthik S</span>
+      </div>
+      <div>
+        <i class="fa-brands fa-facebook dev-profile"></i>
+        <i class="fa-brands fa-square-twitter dev-profile"></i>
+        <i class="fa-brands fa-instagram dev-profile"></i>
+        <i class="fa-brands fa-linkedin dev-profile"></i>
+      </div>
+    </section>
+  </section>
+
+
+  <!-- <div class="carousel">
+       <div class="controls"> -->
+  <!-- <button type="button" class="btn">
+          <span class="material-icons-outlined"><i class="fa-regular fa-less-than"></i></span>:
+        </button> -->
+  <!-- <button class="slide_img"> < </button>
+        <button class="slide_img"> > </button>
+       </div>
+       <div class="slide-center">
+        <div class="slider">
+          <div class="slide">
+            <section class="image_Featured_Section">
+              <div>
+                   <p class="featured_Text">boAt Rockerz 518</p>
+                   <img src="./assests/boat518-1.png" alt="img1" class="featured_Images">
+                   <span><p>&#8377; 1,299 <del>&#8377; 3,990</del></p></span>
+              </div>
+              <div>
+                <p class="featured_Text">JBL Tune 760NC</p>
+               <img src="./assests/jbl760nc-1.png" alt="img2" class="featured_Images">
+               <span><p>&#8377; 5,999 <del>&#8377; 7,999</del></p></span>
+          </div>
+          <div>
+               <p class="featured_Text">boAt Rockerz 255</p>
+               <img src="./assests/boat255r-1.png" alt="img3" class="featured_Images">
+               <span><p>&#8377; 899 <del>&#8377; 2,990</del></p></span>
+          </div>
+          <div>
+               <p class="featured_Text">JBL Endurance Run Sports</p>
+               <img src="./assests/jbl-endu-1.png" alt="img4" class="featured_Images">
+               <span><p>&#8377; 999 <del>&#8377; 1,599</del></p></span>
+          </div>
+          <div>
+                <p class="featured_Text">boAt Airdopes 203</p>
+               <img src="./assests/boat203-1.png" alt="img4" class="featured_Images">
+               <span><p>&#8377; 1,074 <del>&#8377; 3,999</del></p></span>
+          </div>
+            
+          </div>
+        </div>
+       </div>
+
+   </div>
+  </div> -->
+
+  <script src="tech.js"></script>
+
+</body>
+
+</html>
