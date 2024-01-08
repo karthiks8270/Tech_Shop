@@ -1,0 +1,591 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.backgroundAll{
+    background-color: #1d1c1c;
+}
+
+               /* HEADER */
+
+
+.header{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+}
+.title{
+    color: white;
+    font-size: 18px;
+    margin: 5px;
+    padding: 5px;
+  }
+.header_icons>i{
+    padding: 10px;
+    margin: 8px;
+  }
+.account{
+    color: #fff;
+    width: 260px;
+    height: 312px;
+    font-size: 13px;
+    border-radius: 3px;
+    display: none;
+    position: absolute;
+    top: 73px;
+    left:  1030px;
+    background-color: rgba(37, 35, 35, 0.991);
+    border: 1px solid rgb(110, 109, 109);
+    padding: 2px;
+    box-shadow: rgba(0, 0, 0, 0.573) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    z-index: 1;
+    
+}
+.account-bt{
+    color: white;
+    border: 1px solid rgb(112, 110, 110);
+    padding: 8px;
+    background-color:rgba(53, 52, 52, 0.484);
+}
+.account-items{
+    margin-left: 20px;
+    margin-right: 20px;
+    color: rgb(172, 173, 174);
+}
+.account-items:hover{
+    color: white;
+}
+#icons_name_1{
+    height: 25px;
+    width: 49px;
+    border: 1px solid rgba(255, 255, 255, 0.621);
+    position: absolute;
+    left: 1245px;
+    top: 43px;
+    color: white;
+    padding: 3px;
+    font-size: 14px;
+    display: none;
+}
+#icons_name_2{
+        height: 27px;
+        width: 38px;
+        border: 1px solid rgba(255, 255, 255, 0.621);
+        position: absolute;
+        left: 1310px;
+        top: 43px;
+        color: white;
+        padding: 3px;
+        font-size: 14px;
+        display: none;
+}
+.cart_empty{
+    background-color: #1d1c1c;
+    text-align: center;
+    height: 500px;
+    display: none;
+}
+.cart_empty_icon{
+    font-size: 125px;
+    color: red;
+    margin-top: 150px;
+}
+.cart_empty_bt{
+    background-color: red;
+    color: white;
+    padding: 5px;
+    border: none;
+    margin-top: 20px;
+}
+.cart_empty_text{
+    color: white;
+    margin-top: 20px;
+}
+#search{
+    width: 545px;
+    height: 30px;
+    background-color: rgb(39, 38, 38);
+    color: rgb(255, 253, 253);
+    border:  2px solid rgb(255, 253, 253);
+    position: absolute;
+    top: 40px;
+    left: 440px;
+    display: none;
+}
+                         /* Login details */
+
+.login_detail{
+    color: rgb(172, 173, 174);
+    height: 375px;
+    width: 320px;
+    border: 1px solid white;
+    padding: 20px;
+    background-color: rgba(52, 51, 51, 0.865);
+    border: none;
+    display: none;
+    position: absolute;
+    top: 100px;
+    left: 450px;
+}
+.login_detail h5{
+    color: white;
+}
+.login input{
+    width: 260px;
+    height: 36px;
+    padding: 10px;
+    color: rgb(172, 173, 174);
+    background-color: rgba(52, 51, 51, 0.865);
+    border: 1px solid white;
+    font-size: 13px;
+    margin: 6px;
+}
+.login input[type="button"]{
+    background-color: red;
+    border: none;
+}
+.login_detail p{
+    font-size: 13px;
+}
+.login_detail hr{
+    width: 60px;
+}
+.login_text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    margin: 5px;
+}
+.cancel{
+    display: flex;
+    justify-content: end;
+}
+#create_account:hover{
+      color: white;
+}
+
+
+                            /* Sign up Details */
+.signup_detail{
+    color: rgb(172, 173, 174);
+    height: 480px;
+    width: 320px;
+    border: 1px solid white;
+    padding: 20px;
+    background-color: rgba(52, 51, 51, 0.865);
+    border: none;
+    display: none;
+    position: absolute;
+    top: 100px;
+    left: 450px;
+}
+.signup_detail h5{
+    color: white;
+}
+.signup input{
+    width: 260px;
+    height: 36px;
+    padding: 10px;
+    color: rgb(172, 173, 174);
+    background-color: rgba(52, 51, 51, 0.865);
+    border: 1px solid white;
+    font-size: 13px;
+    margin: 6px;
+}
+.signup input[type="button"]{
+    background-color: red;
+    border: none;
+}
+.signup_detail p{
+    font-size: 13px;
+}
+.signup_detail hr{
+    width: 60px;
+}
+.signup_text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    margin: 5px;
+}
+#login:hover{
+    color: white;
+}
+.cancel_signup{
+    display: flex;
+    justify-content: end;
+}
+
+
+
+
+                /* Login with other accounts     */
+
+.Facebook,.Google,.Twitter{
+    width: 80px;
+    height: 30px;
+    font-size: 13px;
+    margin: 3px;
+    padding: 3px;
+    align-items: center;
+}
+.Facebook{
+    background-color: rgba(88, 88, 238, 0.694);
+    color: white;
+    border: none;
+}
+.Google{
+    background-color: rgb(193, 19, 19);
+    color: white;
+    border: none;
+}
+.Twitter{
+    background-color: rgb(24, 157, 210);
+    color: white;
+    border: none;
+}
+
+
+
+
+                 /* carousel part */
+
+.jblText{
+ color: aliceblue;
+ padding: 15% 4% 10% 3%;
+
+}
+.jblButton{
+    background-color:  rgb(255, 68, 0);
+    color: aliceblue;
+    width: 20%;
+    padding: 5px 10px 5px 10px;
+    border: none;
+    border-radius: 2px;
+    box-shadow: rgba(240, 102, 10, 0.2) 0px 7px 29px 0px;
+}
+.boatButton{
+    background-color:  rgb(255, 68, 0);
+    color: aliceblue;
+    width: 20%;
+    padding: 5px 10px 5px 10px;
+    border: none;
+    border-radius: 2px;
+    box-shadow: rgba(240, 102, 10, 0.2) 0px 7px 29px 0px;
+}
+.sonyButton{
+    background-color: rgb(255, 68, 0);
+    color: aliceblue;
+    width: 20%;
+    padding: 5px 10px 5px 10px;
+    border: none;
+    border-radius: 2px;
+    box-shadow: rgba(240, 102, 10, 0.2) 0px 7px 29px 0px;
+}
+.boattext{
+    color: aliceblue;
+    padding: 15% 4% 10% 3%;
+}
+.sony{
+    color: aliceblue;
+    padding: 15% 4% 10% 3%;
+}
+
+                                /* FEATURED PRODUCTS */
+
+
+.featured_Products{
+    text-align: center;
+    color: white;
+    margin-top: 120px;
+}
+.featured_Images{
+    width: 200px;
+    height: 200px;
+}
+.image_Featured_Section{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    color: aliceblue;
+    text-align: center;
+    padding: 80px;
+    justify-content: space-between;
+}
+.featured_Text{
+    font-size: 10px;
+    padding-bottom: 15px;
+}
+.userDetails{
+    display: none;
+    position: absolute;
+    top: 100%; /* Position the popup just below the user icon */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 1;
+}
+.boat518{
+    width: 80px;
+    height: 80px;
+    border: 1.5px solid rgba(255, 255, 255, 0.719);
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.horizontal-line{
+    border: 1px solid white;
+    width: 220px;
+}
+.boat518_images{
+    color: white;
+    background-color:  #1d1c1c;
+    display: grid;
+    grid-template-columns: 15% 55% 30%;
+    height: 700px;
+}
+.Payment{
+    height: 56px;
+    width: 160px ;
+    border: 1px solid white;
+    padding: 5px;
+    margin-left: 10px;
+    font-size: 13px;
+    height: 47px;
+}
+.Payment_Method{
+    display: flex;
+}
+.boat518_Extended_Details{
+    display: flex;
+    justify-content: space-around;
+}
+#In-stock{
+    background-color: rgb(5, 122, 5);
+    color: white;
+    width: 80px;
+    background-color: rgb(5, 122, 5);
+    color: white;
+    width: 70px;
+    height: 30px;
+    padding: 3px;
+    margin: 4px;
+    font-size: 13px;
+}
+.Add_to_cart_bt{
+    height: 30px;
+    width: 150px;
+    color: white;
+    background-color: red;
+    border: none;
+    margin-top: 20px;
+}
+#boat518-1_discount{
+    font-size: 15px;
+}
+.boat518_bts{
+    border: none;
+    background-color: red;
+    color: white;
+    height: 35px;
+    width: 100px;
+    font-size: 15px;
+}
+.boat518_bt{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+.boat518_Specfication{
+    background-color:  #1d1c1c;
+    color: rgb(246, 246, 246);
+    line-height: 1.5;
+} 
+
+
+
+
+.slide_img{
+    height: 25px;
+    width: 25px;
+}
+.carousel{
+    width: 100%;
+    height:50%;
+    flex-grow: 1;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+
+}
+.controls{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.controls button{
+    background: none;
+    outline: none;
+    border: none;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.controls button:hover{
+    background: grey;
+}
+.top_products{
+    height: 700px ;
+}
+.top_products_head{
+    color: #fff;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.top_products_list{
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+    color: inherit;
+}
+.top_products_list a {
+    text-decoration: none; 
+    color: white;
+    font-size: 13px;
+    text-align: center;
+    height: 30px;
+    width: 100px;
+    padding: 6px;
+    display: inline-block;
+    overflow: hidden;
+    transition: transform 0.3s; 
+ }
+.top_products_list a:hover {
+    transform: scale(1.1); 
+    background-color: red;
+  }
+  .cardConatiner{
+    display: grid;
+    grid-template-columns: auto auto auto auto !important;
+  }
+
+  .cardConatiner .card{
+    background-color: black;
+    border: 1px solid white;
+    /* width: 20% ; */
+  }
+
+.cardBodyProduct{
+    color: aliceblue !important;
+    text-align: center;
+}
+.bt-card{
+    width: 100%;
+    background-color: rgb(236, 62, 15);
+    color: white;
+    border: none;
+    padding: 5px 15px 5px 15px;
+}
+.advantages{
+    height: 300px;
+    color: white;
+    margin-top: 145%;
+    background-color: #1d1c1c;
+}
+.advantages-heading{
+    /* color: white; */
+    text-align: center;
+}
+.advantage-text{
+    font-size: 10px;
+}
+.service-icon{
+    font-size: 25px;
+    margin-right: 10px;
+    color: rgb(255, 94, 0);
+}
+.services{
+    display: grid;
+    grid-template-columns: auto auto auto auto ;
+    justify-content: space-around;
+    gap: 10px;
+    margin-top: 80px;
+}
+.service-text{
+    display: flex;
+    margin: 10px;
+}
+.footer{
+    height: 300px;
+    background-color: black;
+    color: white;
+    /* margin-top: 30%; */
+}
+.footer-sec{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.Subscribe-bt{
+    height: 32px;
+    width: 100px;
+    margin-top: 5px;
+    background-color: rgb(255, 94, 0);
+    color: white;
+}
+.email-box{
+    width: 320px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+}
+.footer-ele{
+    color: rgba(255, 255, 255, 0.699);
+}
+.footer-ele:hover{
+    color: white;
+}
+.footer-line{
+    width: 100%;
+    border: 1px solid white;
+}
+.dev{
+    display: flex;
+    justify-content: space-between;
+}
+.dev-details{
+    color: rgba(255, 255, 255, 0.699);
+}
+.dev-profile{
+    font-size: 17px;
+    color: rgba(255, 255, 255, 0.699); 
+    margin: 10px;
+}
+.dev-profile:hover{
+    color: rgb(255, 94, 0);
+}
+.hidden{
+    display: none;
+    color: white;
+}
+
